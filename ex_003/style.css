@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 60px;
+  text-align: center;
+  color: aliceblue;
+  border: solid color(srgb rgb(29, 4, 253) green blue);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-link {
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
